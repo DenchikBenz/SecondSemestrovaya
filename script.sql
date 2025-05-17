@@ -95,3 +95,6 @@ CREATE TABLE UserLocations (
 CREATE INDEX idx_users_username ON Users(username);
 CREATE INDEX idx_users_email ON Users(email);
 CREATE INDEX idx_userlocations_coordinates ON UserLocations(latitude, longitude);
+
+SHOW port;
+SHOW config_file;
